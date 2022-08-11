@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Audiowide&family=Bowlby+One+SC&family=Itim&family=Lobster&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Audiowide&family=Bowlby+One+SC&family=Itim&family=Lobster&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:wght@300&family=Sorts+Mill+Goudy:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./netflix-background-image\ 1.png);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#container{
+    max-width: 1240px;
+    width: 1240px;
+    height: 1036px;
+    background-color: rgba(0, 0, 0, 0.295);
+    margin: auto; /*ortalamasını sağladık*/
+    margin-top: 30px;
+}
+
+#title{
+    font-size: 50px;
+    color:white;
+    font-family: 'Bowlby One SC', cursive;
+
+}
+
+#description{
+    font-family: 'Sorts Mill Goudy', serif;
+    /* color: white; */
+}
+
+span{
+    color: red
+}
+
+#header{
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+}
+
+#surveyformcontainer{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+    margin-top: 10px;
+
+}
+
+#name,
+#age,
+#email,
+#dropdown,
+#feedback{
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
+}
+
+#button{
+    width: 165px;
+    height: 45px;
+    background-color: #ff0000;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.box{
+    margin-top: 10px;
+}
+
+.submit{
+    width: 160px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#button :hover{
+    background-color: #ff0000;
+    color: white;
+}
+
+#check, #radio{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

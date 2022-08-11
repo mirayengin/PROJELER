@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\Amazon_Typefaces_Complete_Font_Set_Mar2020"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Amazon_project"
+	}
+}
