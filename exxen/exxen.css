@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alumni+Sans+Inline+One&family=Anton&family=Audiowide&family=Itim&family=Lobster&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    position: relative;
+    
+
+}
+
+.header {
+    display:inline-flex;
+    height: 120px;
+    width: 100%;
+    padding: 20px 200px;
+    text-align: center;
+    align-items: center;
+    background-color: #ffcb04;
+    justify-content:space-between;
+    padding-right: 160px;
+
+
+    
+
+}
+
+
+
+.header a {
+    text-decoration: none;
+    
+}
+
+/* .header .menus {
+    line-height: 10px;
+    display: inline-flex; */
+    
+}
+
+/* header div {
+     border: 2px solid red; 
+    margin-left: 25px;
+    line-height: 50px;
+     padding: 30px 40px; 
+    font-family: 'Alumni Sans Inline One', cursive; 
+    font-family: 'Abril Fatface', cursive; */
+    
+}
+
+
+
+.logo1 {
+    padding: 0;
+    margin-right: 100px;
+    width: 300px;
+    
+    
+}
+
+
+
+.exxenspor {
+
+    background-color: black;
+    line-height: 25px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 450px;
+    font-size: large;
+    letter-spacing: -1px;
+
+
+}
+
+.exxenspor a {
+    color:#ffcb04;
+}
+
+.member {
+    border: 1px solid black;
+    line-height: 25px;
+    padding: 10px 7px;
+    font-weight: bold;
+    margin-right: 15px;
+
+
+
+
+}
+
+.member a {
+    color: black;
+    letter-spacing: -1px; /*Harfler arasını daraltır.*/
+
+
+}
+
+header .logo2 {
+    margin-right: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+    margin-left: -5px;
+    padding-right: 40px;
+    top: 0px;
+    font-size: 0.9em;
+    overflow: hidden;
+
+    
+}
+
+
+.logo2::after{
+    content: "▼";
+    position: relative;
+
+
+}
+
+ #dil {
+    display: flex;
+    background-color: #ffcb04;
+    border: none;
+    width: 40px;
+    overflow: hidden;
+
+    
+}
+
+ /* #dil option {
+    font-family: 'Abril Fatface', cursive;
+    background-color: black;
+    color: white;
+} */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.869);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px 200px;
+    width: auto;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+}
+
+nav div input {
+    width: 350px;
+    padding-left: 20px;
+    /* border: 2px double gray; */
+    font-size: large;
+    position: sticky;
+    top: 0px;
+    line-height: 50px;
+    
+}
+
+nav div input::placeholder{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.btn input {
+    background-color: #ffcb04 !important;
+    font-family: 'Abril Fatface', cursive;
+    border: none;
+}
+
+
+.main {
+    text-align: center;
+    border: 1px solid red;
+}
+
+.main main a img {
+    width: 1200px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+section div a img {
+    width: 235px;
+}

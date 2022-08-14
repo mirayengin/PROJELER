@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0px auto;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+}
+  
+  
+/* header */
+.header{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	padding: 15px 30px;
+}
+.header a{
+    text-decoration: none;
+    margin-right: 20px; /*linkler arasındaki mesafe*/
+    color: black;
+    font-size: 13px; 
+    cursor: pointer;
+    
+}
+.header_left a{
+    color: rgba(0,0,0,0.70);
+}
+ 
+.header a:hover{
+    text-decoration: underline;
+} 
+ .header_right{
+	display: flex;
+    align-items: center;
+    /* justify-content: space-between; ikonu hizalamak için kullandım */
+	/* min-width: 13px; */
+}
+
+span{
+	margin-right: 10px;	/*boton ile aradaki mesafe*/
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.5);
+	
+}
+span:hover{
+	color: black;
+}
+
+.user{
+    background-color: rgba(66,133,244,255);
+    border-radius: 2px;
+    height: 30px;
+    width: 70px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.user:hover{
+    width: 80px;
+}
+    /* header end */
+
+   /*main start*/
+  
+#content {
+	/* margin-top: 90px; */
+}
+  
+.logo {
+	/* text-align: center;
+	margin-top: 180px; */
+	height: 95px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	
+}
+  
+.search {
+	/* border: 1px solid red; */
+	width: 440px;
+	height: 150px;
+	margin: 0px auto; /*search divini eşit uzaklıklarla belirledi*/ 
+	position: relative; /*kaldırınca ikonlar gidiyor*/
+	margin-top: 10px;
+	text-align: center; /*butonları hizaladım*/
+	
+}
+  
+.search .input {
+	/* display: block; */
+	border: 1px solid lightgray;
+	color: rgba(0, 0, 0, 0.87); /*input kısmına yazılan yazının rengi*/
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 50px;
+	border-radius: 25px;
+	width: 100%;
+	outline: none; /*dış hat çizgisi görünmesin*/
+}
+  
+.search .input:hover {
+	box-shadow: 3px 3px 5px lightgray;
+}
+  
+.search-icon {
+	width: 30px;
+	height: 30px;
+	opacity: 0.7; 
+	position: absolute;
+	top: 10px;
+	left: 14px;
+	cursor: pointer;
+}
+  
+#content .search .mic {
+	width: 15px;
+	position: absolute;
+	top: 5px; /*en dış div e göre konum*/
+	right: 15px;
+	height: 20px;
+	cursor: pointer;
+	margin-top: 10px;  /*inputa göre konum*/
+
+}
+  
+.search .mic:hover {
+	opacity: 0.8;
+}
+  
+  
+.search button {
+	border: 1px solid transparent;
+	padding: 9px 15px; /*boy ve enden pixel verdik*/
+	color: #5f6368;
+	font-size: 14px;
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 8px;
+	margin-top: 28px; /*search olan uzaklıgı belirledik*/
+	cursor: pointer;
+}
+  
+.search button:hover {
+	color: black;
+	border: 1px solid #aaa;
+	box-shadow: 0.7px 0.7px 0.7px lightgray;
+}
+  
+.lang{
+	text-align: center;
+	margin-top: 20px;
+	font-size: small;
+
+}
+.lang a{
+	color: navy
+}
+footer {
+	width: 100%;
+	padding-left: 5px; /*sayfa kenarından yazının girintisi*/
+	background-color: #f2f2f2;
+	line-height: 40px;
+	font-size: 14px;
+	position: fixed;
+	bottom: 0; 
+	
+}
+  
+.footer{
+	border: 1px solid red;
+	  border-bottom: 1px solid #e4e4e4;
+	  padding-left: 13px;
+	  color: #5f6368;
+	  cursor: pointer;
+}
+  
+.nav {    /*linkler*/
+	color: #5f6368;
+	text-decoration: none;
+	padding: 10px; /*linkler arası mesafe*/
+}
+  
+.f_left {
+	float: left; 
+	
+}
+  
+.f_right {
+	float: right;
+	margin-right: 25px;
+}
+
+.footer:hover{
+	text-decoration: underline;
+}
+
+.nav:hover{
+	text-decoration: underline;
+}
