@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav.nav-top {
+    padding-right: 1.5rem;
+    background-image: linear-gradient( to right, rgb(169, 152, 152), rgba(204, 7, 191, 0.769) );/* burada beyazdan mora doğru geçiş verdik */
+}
+
+
+
+nav.nav-top img {
+    width: 50px;
+    border: 1px solid rgb(167, 24, 24);
+    outline: 3px solid red;
+    outline-offset: 3px;
+    margin: 0.5rem 0.5rem;
+}
+
+.nav-top .sing-in {
+    float: right;
+    margin: 1.8rem 1rem;
+    font-weight: 700;
+}
+
+.nav-top .sing-in a {
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing:normal;
+}
+
+
+.nav-top .sing-in a:hover {
+    color: black;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+nav.nav-main {
+    height: 80px;
+    background-color: #ffaa53;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding-top: 2rem;
+    
+}
+
+nav.nav-main a {
+    padding: 2rem; 
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 600;
+}
+
+nav.nav-main a:hover {
+    color: white;
+}
+
+main {
+    text-align: justify;
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+
