@@ -1,0 +1,160 @@
+:root{
+    --mavi-7: hsl(205, 90%, 76%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(94, 215, 19);
+
+    
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+
+.row img {
+    width: 2rem;
+    height: 2rem;
+
+    
+}
+
+.list {
+    border: 2px solid black;
+    border-radius: 30px;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0px 30px;
+    background-color: var(--mavi-7);
+    flex-wrap: wrap;
+    
+}
+
+
+.list a{
+    text-decoration: none;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.list a:hover {
+    color: aliceblue;
+    font-size: 1.2;
+    font-weight: 800;
+    background-color: darkslategray;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 80px;
+    height: 45px;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    flex-basis: 4;
+    
+}
+
+.row {
+    
+    display: flex;
+    border: 1px solid red;
+    flex-flow: wrap;
+}
+
+
+
+.container img {
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+
+
+div ul {
+    
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    
+    
+}
+
+div ul li {
+    flex-wrap: wrap;
+}
+
+div ul li a {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+div ul li a:hover {
+    color: black;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+div.icon img {
+    width: 2rem;
+    height: 2rem;
+    display:flex;
+    justify-content: flex-end;
+
+} */

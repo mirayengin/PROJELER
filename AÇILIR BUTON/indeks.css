@@ -1,0 +1,60 @@
+
+.birinci {
+    border: 2px solid black;
+    width: 280px;
+    
+}
+.icerik {
+    box-sizing: border-box;
+    margin-left:-170px;
+    transition: 4s;
+    border: 2px solid rgb(111, 111, 223);
+    width: 240px;
+    background-color: #7f6000;
+
+}
+.icerik:hover {
+    transform: translate(168px);
+}
+.icerik i {
+    margin-right: 12%;
+    transition: 3s;
+    font-size: 20px;
+    float: right;
+    color: white;
+    margin-bottom: 10%;
+}
+.icerik span {
+    background-color: #7F6000;
+    width: 100%;
+    
+
+}
+.icerik:hover i {
+    transform: rotate(-180deg);
+    color: black;
+}
+.icerik p {
+    color: white;
+    text-align: center;
+    color: white;
+}
+.icerik ul {
+    margin: 0px;
+    padding-left: 17.5%;
+    color: white;
+    text-decoration: none;
+    background-color: #bf9000;
+    
+}
+
+.icerik ul li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.icerik a {
+    padding-left: 15%;
+    color: white;
+    text-decoration: none;
+}
