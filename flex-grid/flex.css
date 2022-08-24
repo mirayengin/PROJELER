@@ -78,3 +78,32 @@
     background-color: aqua;
     padding: 1rem;
   }
+
+  .main {
+    background-color: blueviolet;
+    padding: 1rem;
+    ;
+  }
+
+  .one {
+    display: flex;
+    justify-content: space-between;
+    justify-content:space-around;
+  }
+
+  .two {
+    display: flex;
+    justify-content:space-around;
+  }
+
+  /* .main section div {
+    border: 2px solid red;
+    padding: 0.3rem;
+  } */
+
+  .footer {
+    background-color: coral;
+    height: 3rem;
+    padding: 1rem;
+    justify-content: center;
+  }
