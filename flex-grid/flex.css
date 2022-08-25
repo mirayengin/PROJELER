@@ -1,109 +1,62 @@
+:root {
+  /* */ 
+--mavi1: hsl(205, 100%, 30%);
+--mavi2: hsl(205, 100%, 40%);
+--mavi3: hsl(205, 100%, 50%);
+--mavi4: hsl(205, 100%, 60%);
+--mavi5: hsl(205, 100%, 70%);
+/* asil renklerin acik tonları */
+--mavi-6: hsl(205, 89%, 70%);
+--mavi-7: hsl(205, 90%, 76%);
+--mavi-8: hsl(205, 86%, 81%);
+--mavi-9: hsl(205, 90%, 88%);
+--mavi-10: hsl(205, 100%, 96%);
+--mavi-11: hsl(205, 3%, 95%);
+/* Basliklar icin kullanilan koyu tonlar */
+--gri-1: hsl(209, 61%, 16%);
+--gri-2: hsl(211, 39%, 23%);
+--gri-3: hsl(209, 34%, 30%);
+--gri-4: hsl(209, 28%, 39%);
+/* Paragraflar icin kullanilan renkler */
+--gri-5: hsl(210, 22%, 49%);
+--gri-6: hsl(209, 23%, 60%);
+--gri-7: hsl(211, 27%, 70%);
+--gri-8: hsl(210, 31%, 80%);
+--gri-9: hsl(212, 33%, 89%);
+--gri-10: hsl(210, 36%, 96%);
+}
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-size: 1rem;
-    text-align: center;
-  }
-  .container {
-    width: 100%;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin-top: 2rem;
+  /* border: 1px solid red; */background-color: l;
+}
+.logos{
+  display: flex;
+  /* height: 30px; */
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--mavi-10);
   
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  /*! Yeni bir satıra birşey yazdırmak için row class ını kullanmalıyız. */
-  
-  .col-1 {
-    width: 8.333333%;
-  }
-  
-  .col-2 {
-    width: 16.666667%;
-  }
-  
-  .col-3 {
-    width: 25%;
-  }
-  
-  .col-4 {
-    width: 33.333333%;
-  }
-  
-  .col-5 {
-    width: 41.666667%;
-  }
-  
-  .col-6 {
-    width: 50%;
-  }
-  
-  .col-7 {
-    width: 58.333333%;
-  }
-  
-  .col-8 {
-    width: 66.666667%;
-  }
-  
-  .col-9 {
-    width: 75%;
-  }
-  
-  .col-10 {
-    width: 83.333333%;
-  }
-  
-  .col-11 {
-    width: 91.666667%;
-  }
-  
-  .col-12 {
-    width: 100%;
-  }
-
-
-  .logo {
-    background-color: hotpink;
-    padding: 1rem;
-  }
-
-  .menu {
-    background-color: brown;
-    padding: 1rem;
-  }
-
-  .banner {
-    background-color: aqua;
-    padding: 1rem;
-  }
-
-  .main {
-    background-color: blueviolet;
-    padding: 1rem;
-    ;
-  }
-
-  .one {
-    display: flex;
-    justify-content: space-between;
-    justify-content:space-around;
-  }
-
-  .two {
-    display: flex;
-    justify-content:space-around;
-  }
-
-  /* .main section div {
-    border: 2px solid red;
-    padding: 0.3rem;
-  } */
-
-  .footer {
-    background-color: coral;
-    height: 3rem;
-    padding: 1rem;
-    justify-content: center;
-  }
+}
+img {
+  width: 60px;
+  height: 50px;
+  background-color: aqua;
+}
+.menu {
+  width: 32%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid red;
+}
