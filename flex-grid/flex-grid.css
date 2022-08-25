@@ -1,0 +1,122 @@
+
+:root{
+  --acik-yesil2: #618C03; 
+  --sari-bir-ton: #F2B705; 
+  --koyu-sari: #D97904; 
+  --domates-rengiGibi: #D92B04; 
+  --kırmızının-tonu: #8C0E03;
+  --ff-nunito: "Nunito", sans-serif;
+  --ff-dyna: "DynaPuff", cursive;
+    }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+   
+    
+}
+
+.container {
+    width: 100%;
+   
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+
+.col-1 {
+    width: 8.333333%;
+  }
+  
+  .col-2 {
+    width: 16.666667%;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-4 {
+    width: 33.333333%;
+  }
+  
+  .col-5 {
+    width: 41.666667%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  .col-7 {
+    width: 58.333333%;
+  }
+  
+  .col-8 {
+    width: 66.666667%;
+  }
+  
+  .col-9 {
+    width: 75%;
+  }
+  
+  .col-10 {
+    width: 83.333333%;
+  }
+  
+  .col-11 {
+    width: 91.666667%;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+  
+  .logo {
+    /* background-color: var(--kırmızının-tonu); */
+    background-color: aquamarine;
+    padding: 1rem;
+  }
+
+
+  .menu {
+    background-color: skyblue;
+    padding: 1rem;
+  }
+
+  .banner {
+    background-color: red;
+    padding: 4rem;
+    font-family: var(--ff-nunito);
+  }
+
+.bolum1,
+.bolum2,
+.bolum3 {
+    background-color: greenyellow;
+    height: calc(100vh - 330px);
+    /* align-items: center; */
+    border: 2px solid grey;
+  }
+
+  
+  .bolum4, .bolum5, .bolum6 {
+    background-color:tomato;
+    padding: 1rem;
+    border: 2px solid grey;
+
+  }
+
+  .footer {
+    background-color: violet;
+    padding: 2rem;
+    font-family: var(--ff-dyna);
+  }
