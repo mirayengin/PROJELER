@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    /* margin: 60px; */
+    padding: 0;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(5, 60px);
+    width: 350px;
+    height: 560px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    gap: 13px;
+    justify-content: center;
+    align-content:flex-end;
+    margin: 50px;
+    padding-bottom: 25px;
+    
+
+    
+}
+
+.container {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    border-radius: 50%;
+    background:chartreuse;
+    /* width: 60px;
+    height: 60px; */
+    display: grid;
+    /* margin-bottom: 40px */
+}
+
+.container:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.container:active {
+    transform: scale(95%)
+
+}
+
+.zero {
+    grid-area: ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: black;
+    border-radius: 120px;
+    /* width: 120px !important; */
+}
+
+/* .point {
+    grid-column: 3 / 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+} */
+
+.gray {
+    background-color: gray;
+    color: black;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.plus {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+/** ALT + 0177 == ± BUNU VERİR.*/
+

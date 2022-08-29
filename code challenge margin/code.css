@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: auto;
+    
+
+}
+
+.container {
+    background-color: #d46461;
+    border: 5px solid black;
+    width: 35rem;
+    height: 60vh;
+    margin: 10rem;
+    text-align: center ;
+    justify-content: center;
+    padding: 20px;    
+    font-weight: 800;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.resim img {
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    left: 360px;
+    top: -5rem  ; 
+    
+}
+
+.iki {
+    
+    float:both;
+    padding-top: 80px;
+    padding-bottom: 40px;
+     clear: both;
+
+}
+
+.container .iki p {
+    font-size: 20px;
+}
+
+.container .iki p span {
+    color: yellow;
+}
+
+.bir p {
+    font-size: 32px;
+}
+
+.download {
+    margin-left:330px;
+    margin-top: -130px;
+    font-size: 16px;
+    color: #a51956;
+}
