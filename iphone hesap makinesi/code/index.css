@@ -12,36 +12,33 @@ body {
 
 .container1 {
     display: grid;
-    grid-template-columns: repeat(4, 60px);
-    grid-template-rows: repeat(5, 60px);
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(5, 70px);
     width: 350px;
-    height: 560px;
+    height: 600px;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 60px;
     background-color: white;
-    gap: 13px;
+    gap: 8px;
     justify-content: center;
     align-content:flex-end;
     margin: 50px;
     padding-bottom: 25px;
-    
-
+    background-color: black;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
     
 }
 
 .container {
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
     text-align: center;
-    line-height: 60px;
+    justify-content: center;
+    align-items: center;
     color: white;
     border-radius: 50%;
-    background:chartreuse;
-    /* width: 60px;
-    height: 60px; */
+    background:rgba(128, 128, 128, 0.413);
     display: grid;
-    /* margin-bottom: 40px */
 }
 
 .container:hover {
@@ -54,12 +51,12 @@ body {
 }
 
 .zero {
-    grid-area: ;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: black;
     border-radius: 120px;
-    /* width: 120px !important; */
+    background:rgba(128, 128, 128, 0.413);
+    justify-content: flex-start;
+    padding-left: 25px;
 }
 
 /* .point {
@@ -69,12 +66,12 @@ body {
 } */
 
 .gray {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.786);
     color: black;
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: rgba(255, 166, 0, 0.832);
 }
 
 .plus {
@@ -83,4 +80,6 @@ body {
 }
 
 /** ALT + 0177 == ± BUNU VERİR.*/
+
+//** windows + nokta(.) bas emojiler semboller gelir.
 
