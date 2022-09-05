@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKOUT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="baslik">
+        <p>Checkout</p>
+    </header>
+
+    <main class="container">
+        <form action="result.html" method="get" class="link">        
+            <div class="info">
+                <p>Contact Information</p>
+                <div class="mail">
+                    <p>Email</p>
+                    <div class="ortak">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" name="Email" id="email" placeholder="Enter your email.." required>
+                    </div>
+                </div>
+
+                <div class="mail phone">
+                    <p>Email</p>
+                    <div class="ortak">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" name="Phone" id="phone1" placeholder="Enter your phone.." required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mail adress">
+                <p>Shipping Addres</p>
+                <div class="name">
+                    <p>Full Name</p>
+                    <div class="ortak">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name="Name" id="name1" placeholder="Enter your Full name" required>
+                    </div>
+                </div>
+
+                <div class="mail inputadress">
+                    <p>Address</p>
+                    <div class="ortak">
+                        <i class="fas fa-house-lock"></i>
+                        <input type="text" name="address" id="address1" placeholder="Enter your address" required>
+                    </div>
+                </div>
+
+                <div class="mail city">
+                    <p>City</p>
+
+                    <div class="ortak">
+                        <i class="fas fa-city"></i>
+                        <input type="text" name="city" id="city1" placeholder="Enter your city" required>
+                    </div>
+                </div>
+
+                <div class="postcode">
+                    <div class="mail country">
+                        <p>Country</p>
+                        <div class="ortak">
+                            <i class="fas fa-earth-europe"></i>
+                            <select name="City" id="mycity">
+                                <option value="Turkey" selected>Turkey</option>
+                                <option value="Usa">Usa</option>
+                                <option value="England">England</option>
+    
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mail code">
+                        <p>Post Code</p>
+                        <div class="ortak">
+                            <i class="fas fa-envelopes-bulk"></i>
+                            <input type="text" name="Code" id="code1" placeholder="Enter your Postal Code" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="boxcheck">                    
+                    <input type="checkbox" name="Box" id="box">
+                    <label for="box">See this information next time</label>
+                </div>
+
+                <div class="bas">
+                    <button class="button">Continue</button>
+                </div>
+
+
+                
+                
+            </div>
+        </form>
+
+        <section class="img">
+            <div class="grup bag">
+                <div class="img1">                    
+                    <img src="./IMG/photo1.png" alt="Bag">
+                </div>
+
+                <div class="price">
+                    <p>Vintage Backbag</p>
+                    <p><span>$54.99</span>  <del>$94.99</del></p>
+                    <div class="one">
+                        <div class="eksi">
+                            <p>-</p>
+                        </div>
+                        <div class="number">
+                            <p>1</p>
+                        </div>
+                        <div class="artı">
+                            <p>+</p>
+                        </div>
+                    </div>
+                </div>                                
+
+            </div>
+
+            <div class="grup shoes">
+                <div class="img1">
+                    <img src="./IMG/photo2.png" alt="">
+                </div>
+
+                <div class="price">
+                    <p>Levi Shoes</p>
+                    <p><span>$74.99</span><del>$124.99</del></p>
+                    <div class="one">
+                        <div class="eksi">
+                            <p>-</p>
+                        </div>
+                        <div class="number">
+                            <p>1</p>
+                        </div>
+                        <div class="artı">
+                            <p>+</p>
+                        </div>
+                    </div>
+                </div>   
+                </div>
+            </div>
+
+            <div class="total">
+                <p>Shipping</p>
+                <p>$19</p>
+            </div>
+
+            <div class="total">
+                <p>Total</p>
+                <p>$148.98</p>
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>
