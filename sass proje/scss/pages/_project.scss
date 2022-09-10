@@ -1,0 +1,30 @@
+
+.project-bgImg-container {
+    @include bgImg(40vh, $main-bgImg-path);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__bio-image {
+        text-align: center;
+        margin-bottom: 0.5rem;
+
+    }
+}
+
+
+.projects {
+    &__items {
+        width: 100%;
+        display: flex;
+        
+    }
+
+    &__item {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
