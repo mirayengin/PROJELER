@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*! NAVBAR  */
+
+/*! BANNER  */
+.banner {
+  background-image: url(https://www.seyirkafe.com/wp-content/uploads/2015/01/sari-tir-resmi.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 88px);
+}
+.banner__par {
+  text-align: center;
+  padding: 15%;
+  color: rgb(236, 16, 16);
+}
+
+/*! Services  */
+/*! Portfolio  */
+/*! About us  */
+
+/*! Our Team  */
+/*! Buttom Navbar  */
+/*! Contact us  */
+.contact {
+  background-image: url(https://www.brewmood.com.tr/wp-content/uploads/2021/03/kahveicYmek10neden-4f31ef09ba02aadf72fd00f449eefaf2.jpg);
+}
+/*! Footer  */
