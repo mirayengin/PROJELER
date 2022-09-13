@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-    crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
@@ -18,14 +18,21 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/app.css" />
-    
   </head>
-  <body>
+  <body class="container text-center">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top d-flex">
       <div class="container">
         <a class="navbar-brand" href="#">GHOST RIDER</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse text-right" id="navbarNav">
@@ -50,43 +57,58 @@
       </div>
     </nav>
 
-    <div class="container-fluid banner"> 
+    <div class="container-fluid banner">
       <div class="container text-center">
         <h4 class="display-5">The It Career of Your Dreams Start Here!</h4>
         <h1 class="display-2">GHOST RIDER</h1>
-        <a class="btn btn-primary bg-danger p-2" href="#services" role="button">Our Services</a>
+        <a class="btn btn-primary bg-danger p-2" href="#services" role="button"
+          >Our Services</a
+        >
       </div>
     </div>
-   
-   
+
     <!-- SERVİS -->
 
     <div class="container-fluid pt-5 pb-5 services">
       <div class="container text-center">
-      <h2 class="display-2">Services</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, totam!</p>
+        <h2 class="display-2">Services</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit,
+          totam!
+        </p>
       </div>
-      <div class="row pt-4 text-center ">
+      <div class="row pt-4 text-center">
         <!-- <div class="col"> -->
-          <div class="col-12 col-md-4">
-            <div class="circle"><i class="fa-solid fa-code fa-5x fa-ikon"></i></div>
-            <h2 class="mt-4">Programming</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, placeat!</p>
+        <div class="col-12 col-md-4">
+          <div class="circle">
+            <i class="fa-solid fa-code fa-5x fa-ikon"></i>
           </div>
+          <h2 class="mt-4">Programming</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
+            placeat!
+          </p>
+        </div>
         <!-- </div> -->
         <!-- <div class="col"> -->
-          <div class="col-12 col-md-4">
-            <div class="circle"><i class="fas fa-palette fa-5x"></i></div>
-            <h2 class="mt-4">Design</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, placeat!</p>
-          </div>
+        <div class="col-12 col-md-4">
+          <div class="circle"><i class="fas fa-palette fa-5x"></i></div>
+          <h2 class="mt-4">Design</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
+            placeat!
+          </p>
+        </div>
         <!-- </div> -->
         <!-- <div class="col"> -->
-          <div class="col-12 col-md-4">
-            <div class="circle"><i class="fas fa-network-wired fa-5x"></i></div>
-            <h2 class="mt-4">Networking</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, placeat!</p>
-          </div>
+        <div class="col-12 col-md-4">
+          <div class="circle"><i class="fas fa-network-wired fa-5x"></i></div>
+          <h2 class="mt-4">Networking</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
+            placeat!
+          </p>
+        </div>
         <!-- </div> -->
       </div>
     </div>
@@ -94,174 +116,296 @@
     <div class="container-fluid bg-light pt-5 pb-5">
       <div class="container text-center">
         <h1>Portfolio</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel consectetur, repellendus suscipit eaque quisquam impedit!</p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
+          consectetur, repellendus suscipit eaque quisquam impedit!
+        </p>
 
         <div class="row pt-5 gx-4 gy-4">
           <div class="col-md-4">
             <div class="card product-img">
-              <img src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg" class="card-img-top" alt="...">
+              <img
+                src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h3 class="card-title">Lorem, İpsum</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg" class="card-img-top" alt="...">
+              <img
+                src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h3>Lorem, İpsum</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg" class="card-img-top" alt="...">
+              <img
+                src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h3>Lorem, İpsum</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg" class="card-img-top" alt="...">
+              <img
+                src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h3>Lorem, İpsum</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg" class="card-img-top" alt="...">
+              <img
+                src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h3>Lorem, İpsum</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card">
-                <img src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h3>Lorem, İpsum</h3>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://i2.milimaj.com/i/milliyet/75/0x0/61ab196b86b24502a8837a1b.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3>Lorem, İpsum</h3>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
-            </div>         
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- ABOUTS -->
-      <div class="container-fluid pt-5 pb-5">
-        <div class="container text-center">
-          <h1 class="display-2">About us</h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eos.</p>
-        </div>
-        <div class="clearfix mx-5 pt-5">
-          <img src="./img/aboutus.jpeg" class="col-md-6 float-md-end mb-3 product-img" width="290" height="290" alt="aboutus">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestias earum aut assumenda harum dolores.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestias earum aut assumenda harum dolores.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestias earum aut assumenda harum dolores.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, doloremque minus atque totam nostrum inventore. Consectetur mollitia fugit assumenda beatae!</p>
-        </div>
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container text-center">
+        <h1 class="display-2">About us</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+          eos.
+        </p>
       </div>
+      <div class=" clearfix mx-5 pt-5">
+        <img
+          src="./img/aboutus.jpeg"
+          class="col-12 col-md-6 float-md-end mb-3 product-img"
+          width="290"
+          height="290"
+          alt="aboutus"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          molestias earum aut assumenda harum dolores.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          molestias earum aut assumenda harum dolores.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          molestias earum aut assumenda harum dolores.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+          doloremque minus atque totam nostrum inventore. Consectetur mollitia
+          fugit assumenda beatae!
+        </p>
+      </div>
+    </div>
 
     <!-- OUR TEAM -->
     <div class="container-fluid our-team text-center py-5">
-      <h3 class="display-2">Our Team</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga iusto earum repellat?</p>
+      <h3 class="display-2 pb-3">Our Team</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga iusto
+        earum repellat?
+      </p>
 
-      <div class="row justify-content-evenly">
-        <div class="col-4 card-our" style="width: 18rem;">
-          <img src="./img/T03LBL87DA8-U03RGV21GJJ-4d78d8f8ac9b-512.jpg" class="card-img-top-our" alt="Mr. Legend">
+      <div class="row gx-3">
+        <div class="col-12 col-md-4 card-our">
+          <img
+            src="./img/T03LBL87DA8-U03RGV21GJJ-4d78d8f8ac9b-512.jpg"
+            class="card-img-top-our"
+            alt="Mr. Legend"
+          />
           <div class="card-body">
             <h5 class="card-title mt-4">Mr.Legend</h5>
             <p class="card-text my-3">Fullstack Developer</p>
           </div>
 
-          <div class="card-body">
-            <a href="#" class="card-link bg-dark"><i class="fa-brands fa-twitter "></i></a>
-            <a href="#" class="card-link bg-dark"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" class="card-link bg-dark"><i class="fa-brands fa-linkedin"></i></a>
+          <div class="card-social">
+            <a href="#" class="card-link bg-dark"
+              ><i class="fa-brands fa-twitter text-white"></i
+            ></a>
+            <a href="#" class="card-link bg-dark"
+              ><i class="fa-brands fa-facebook-f text-white"></i
+            ></a>
+            <a href="#" class="card-link bg-dark text-white"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
           </div>
         </div>
 
-
-        <div class="col-4 card-our" style="width: 18rem;">
-          <img src="./img/image (1).jpg" class="card-img-top-our" alt="Ghost Rider">
+        <div class="col-12 col-md-4  card-our">
+          <img
+            src="./img/image (1).jpg"
+            class="card-img-top-our"
+            alt="Ghost Rider"
+          />
           <div class="card-body">
             <h5 class="card-title mt-4">Ghost Rider</h5>
             <p class="card-text my-3">Fullstack Developer</p>
           </div>
 
-          <div class="card-body">
-            <a href="#" class="card-link bg-dark"><i class="fa-brands fa-twitter "></i></a>
-            <a href="#" class="card-link bg-dark"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" class="card-link bg-dark"><i class="fa-brands fa-linkedin"></i></a>
+          <div class="card-social">
+            <a href="#" class="card-link bg-dark"
+              ><i class="fa-brands fa-twitter text-white"></i
+            ></a>
+            <a href="#" class="card-link bg-dark"
+              ><i class="fa-brands fa-facebook-f text-white"></i
+            ></a>
+            <a href="#" class="card-link bg-dark text-white"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
           </div>
         </div>
 
-
-        <div class="col-4 card-our" style="width: 18rem;">
-          <img src="./img/TMPTG1GNP-U01RQF1QAMD-cc0e1c7eafb3-512.png" class="card-img-top-our" alt="Harvey">
+        <div class="col-12 col-md-4 card-our">
+          <img
+            src="./img/TMPTG1GNP-U01RQF1QAMD-cc0e1c7eafb3-512.png"
+            class="card-img-top-our"
+            alt="Harvey"
+          />
           <div class="card-body">
             <h5 class="card-title mt-4">Harvey Watson</h5>
             <p class="card-text my-3">Mobil Developer</p>
           </div>
 
-          <div class="card-body">
-            <a href="#" class="card-link bg-dark p-5"><i class="fa-brands fa-twitter text-white"></i></a>
-            <a href="#" class="card-link bg-dark"><i class="fa-brands fa-facebook text-white"></i></a>
-            <a href="#" class="card-link bg-dark"><i class="fa-brands fa-linkedin"></i></a>
+          <div class="card-social">
+            <a href="#" class="card-link bg-dark"
+              ><i class="fa-brands fa-twitter text-white"></i
+            ></a>
+            <a href="#" class="card-link bg-dark"
+              ><i class="fa-brands fa-facebook-f text-white"></i
+            ></a>
+            <a href="#" class="card-link bg-dark text-white"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
           </div>
         </div>
       </div>
-
     </div>
-
 
     <!-- SEMBOL -->
 
-    <div class="container symbol">
-      <div class="col">google</div>
-      <div class="col">sachs</div>
-      <div class="col">apple</div>
-      <div class="col">infos</div>
-      <div class="col">deloitte</div>
+    <div
+      class="container-fluid d-flex flex-wrap align-items-center justify-content-center gap-5 my-5"
+    >
+      <a href="#"
+        ><img class="picture" src="./img/sembol/2020-05-05-scaled.jpg" alt=""
+      /></a>
+      <a href="#"
+        ><img
+          class="picture"
+          src="./img/sembol/moved_LYNXMPEHB309H_L.jpg"
+          alt=""
+      /></a>
+      <a href=""
+        ><img class="picture" src="./img/sembol/indir.jfif" alt=""
+      /></a>
+      <a href=""
+        ><img
+          class="picture"
+          src="./img/sembol/deloitte-logo-seen-company-headquarters-deloitte-logo-seen-company-headquarters-deloitte-one-big-four-165348689.jpg"
+          alt=""
+      /></a>
+      <a href=""
+        ><img class="picture" src="./img/sembol/images.jfif" alt=""
+      /></a>
     </div>
     <!-- CONTACT -->
 
-    <div class="container-fluid">
-      <h3>Contact Us</h3>
+    <div class="container-fluid text-center text-light contact">
 
+      <div class="container">
 
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ab, animi porro quae ipsam odit!</p>
-      <label for="inputPassword5" class="form-label">Password</label>
-<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<div id="passwordHelpBlock" class="form-text">
-  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-</div>
+        <h3>Contact Us</h3>
+  
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ab, animi
+          porro quae ipsam odit!
+        </p>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control form-control-lg mb-4" placeholder="Name">
+            <input type="text" class="form-control form-control-lg mb-4" placeholder="Email">
+            <input type="text" class="form-control form-control-lg mb-4" placeholder="Phone Number">
+          </div>
+
+          <div class="col">
+            <textarea class="form-control form-control-lg" placeholder="Comment Here" name="text" id="textarea" rows="6"></textarea>
+          </div>
+
+        </div>
+
+        <button class="btn btn-danger px-3 fs-5">Send Message</button>
+
+        </div>  
     </div>
 
+    <!-- FOOTER -->
 
-    <label for="inputPassword5" class="form-label">Password</label>
-<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<div id="passwordHelpBlock" class="form-text">
-  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-</div>
+    <div class="container-fluid text-center py-5">
 
+      Copy Right ® Ghost Rider
 
-
-<label for="inputPassword5" class="form-label">Password</label>
-<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-<div id="passwordHelpBlock" class="form-text">
-  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-</div>
-
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
