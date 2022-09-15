@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+      
+      
+      <main >
+        <h1 class="text-center mt-5">Kredi Hesaplama Aracı</h1>
+
+    <div class="container mt-4">   
+
+    <form>
+
+        <select id="kreditype" class="form-select" aria-label="Default select example">
+            <option selected>Kredi Tipini Seçiniz</option>
+            <option value="Konut">Konut Kredisi</option>
+            <option value="Ihtiyac"> İhtiyaç Kredisi</option>
+            <option value="Arac">Araç Kredisi</option>
+          </select>
+
+        <div class="mb-3">
+          <label for="vade" class="form-label">Vade</label>
+          <input type="number" max="240" min="36" class="form-control" id="vade" aria-describedby="emailHelp">
+          <div id="vade240" class="form-text">Vade Süresi En Fazla 240 Ay</div>
+        </div>
+        <div class="mb-3">
+          <label for="tutar" class="form-label">Tutar</label>
+          <input type="number" class="form-control" id="tutar">
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Hesapla</button>
+      </form>
+
+      <script src="./kredi.js"></script>
+    </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
