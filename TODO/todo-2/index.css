@@ -1,0 +1,52 @@
+.list {
+    list-style:none !important;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 80%;
+}
+
+.list a {
+    list-style: none !important;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+main {
+    
+    background-image:url(./ulkemizin-dort-bir-yanindan-guzel-manzara-fotograflari.jpg) ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    height: 60%;
+    width: 60%;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 30px;
+    color: white;
+}
+
+.form-kontrol {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+     text-align: center;
+     color: white;
+     letter-spacing: 5px;
+     text-shadow: 4px 4px 4px rgba(255,0,0,0.9);
+
+ }
+
+ ul{
+    color: white;
+ }
