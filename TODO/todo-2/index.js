@@ -6,55 +6,97 @@ console.log(input);
 const addBtn = document.querySelector(".btn");
 console.log(addBtn);
 
-const ulElement = document.querySelector(".ul")
+const results = document.querySelector(".results");
 
-const creatValue = () => {
-    const creatLİ = document.createElement("li");
-    creatLİ.class = "list";
-    creatLİ.innerHTML += `<a href="#">${input.value.toUpperCase()}</a><i class="fa-solid fa-trash">`; 
-    ulElement.appendChild(creatLİ);
-    creatLİ.style.textDecoration = "none";
-    
-    input.value = "";
-
-
-
-    const silmeTool = document.querySelectorAll(".fa-trash");
-
-    silmeTool.forEach((item) => {
-        item.addEventListener("click", () => {
-            item.parentElement.classList.add("d-none")
-        })
-    })
+window.onload = () => {
+    input.focus();
 }
 
-
 addBtn.addEventListener("click", () => {
-
-    if (input.value) {
-        creatValue();        
+    if (!input.value) {
+        alert("Yapılacak bir madde giriniz.")
+    } else {
+        results.innerHTML += `<div class="result"><i class="fa-regular fa-square"></i><p class="p">${input.value}</p><i class="fa-sharp fa-solid fa-trash-can"></i></div>`;
+        
+        input.value = "";
     }
-    
-
-    input.value = "";
-
-    
-
-
-
 })
 
 
-input.addEventListener("keydown", (tus) => {
-    if (tus.code == "Enter") { 
-        if (input.value) {
-            creatValue();        
-        }       
-    
+input.addEventListener("keydown", (e) => {
+    if (e.code == "Enter") {
+        addBtn.click();
         input.value = "";
     }
+})
 
-});
+results.addEventListener("click", (e) => {
+    if (e.target.classList.contains("fa-trash-can")) {
+        e.target.parentElement.remove();
+    } else if (e.target.classList.contains("fa-square")) {
+        e.target.parentElement.classList.add("bg");
+        e.target.classList.remove("fa-regular","fa-square")
+        e.target.classList.add("fa-solid", "fa-check");        
+
+    } else if (e.target.classList.contains("fa-check")) {
+        e.target.parentElement.classList.remove("bg");
+        e.target.classList.add("fa-regular","fa-square")
+        e.target.classList.remove("fa-solid", "fa-check"); 
+
+        
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const creatValue = () => {
+
+//     const silmeTool = document.querySelectorAll(".fa-trash");
+//     silmeTool.forEach((item) => {
+//         item.addEventListener("click", () => {
+//             item.parentElement.remove();
+//         })
+//     })
+// }
+
+
+// addBtn.addEventListener("click", () => {
+
+//     if (input.value) {
+//         creatValue();        
+//     }   
+//     input.value = "";
+
+// })
+
+
+// input.addEventListener("keydown", (tus) => {
+//     if (tus.code == "Enter") { 
+//         if (input.value) {
+//             creatValue();        
+//         }       
+    
+//         input.value = "";
+//     }
+
+// });
 
 
 

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-width: 280px;
+    display: grid;
+    padding: 0px 15px;
+    padding-top: 20px;
+    width: 25%;
+    height: 570px;
+    border-radius: 30px;
+}
+
+.screen {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 30px;
+    padding: 10px;
+    width: 90%;
+    height: 110px;
+    margin: auto;
+
+}
+
+.row {
+    gap: 10px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.btn {
+    display: flex;
+    color: white;
+    border-radius: 50%;
+    background-color: blue;
+    gap: 15px;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.zero {
+    width: 130px;
+    border-radius: 40px;
+}

@@ -9,9 +9,9 @@ window.addEventListener("load", () => {
     localStorage.setItem("shippingFreePrice", shippingFreePrice);
 
     //!setItem
-    sessionStorage.setItem("taxRate", taxRate); //?browser kapanınca gider 
-    sessionStorage.setItem("shippingPrice", shippingPrice);
-    sessionStorage.setItem("shippingFreePrice", shippingFreePrice);
+    // sessionStorage.setItem("taxRate", taxRate); //?browser kapanınca gider 
+    // sessionStorage.setItem("shippingPrice", shippingPrice);
+    // sessionStorage.setItem("shippingFreePrice", shippingFreePrice);
 
     
 })
@@ -32,14 +32,14 @@ const productsDiv = document.querySelector(".products"); productsDiv.addEventLis
                 event.target.parentElement.parentElement.parentElement.remove();
                 calculateCardPrice()
             
-        }
-
+        }  
         
     }else if (event.target.classList.contains("fa-plus")) {
         // console.log("plus btn is clicked!");
         event.target.previousElementSibling.innerText++;
         calculateProductPrice();
         calculateCardPrice();
+
     }else if (event.target.className == "remove-product") {
         // console.log("remove btn is clicked!");
         event.target.parentElement.parentElement.parentElement.remove(event.target);

@@ -1,20 +1,3 @@
-.list {
-    list-style:none !important;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    width: 80%;
-}
-
-.list a {
-    list-style: none !important;
-    color: white;
-    text-decoration: none;
-
-
-}
-
-
 main {
     
     background-image:url(./ulkemizin-dort-bir-yanindan-guzel-manzara-fotograflari.jpg) ;
@@ -34,19 +17,66 @@ main {
     color: white;
 }
 
+.input-group {
+    width: 70%;
+    margin: auto;
+
+}
+
 .form-kontrol {
     width: 80%;
     margin: auto;
 }
+
 
 h1 {
      text-align: center;
      color: white;
      letter-spacing: 5px;
      text-shadow: 4px 4px 4px rgba(255,0,0,0.9);
+     margin : 40px 0px;
 
  }
 
- ul{
-    color: white;
+
+ .results {
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin:auto;
+
  }
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top:0.7rem;
+    transition: all 1s;
+    border: 2px solid red;
+    border-radius: 10px;
+    opacity: 0.7;
+
+}
+
+
+ .bg {
+    color: red;
+    background-color: coral;
+
+
+ }
+
+
+ .bg p {
+
+    text-decoration: line-through;
+    color: red;
+ }
+
+ .p {
+    text-align: center;
+    margin-top: 10px;
+ }
+
