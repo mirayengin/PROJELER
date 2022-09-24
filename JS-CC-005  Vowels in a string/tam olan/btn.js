@@ -6,22 +6,17 @@ let count = 0;
 
 btn.addEventListener("click", () => {
   metinAlani1 = (metinAlani.value.toLowerCase()).split("");
-//   metinAlani1 = metinAlani1.split("");
-//   console.log(typeof metinAlani);
-//   console.log(metinAlani);
  
   for (let i = 0; i < metinAlani1.length; i++) {
-    // console.log(metinAlani[i]);
     for (let k = 0; k < unluHarfler.length; k++) {
         if(metinAlani1[i] == unluHarfler[k]){
             count++;
-        }
+      }
     }
   }
-  // console.log(count);
-//   mesaj.innerText = `There are ${count} vowels ${metinAlani.value}`;
-  mesaj.innerHTML = `<p class="msg text-white">There are ${count} vowels <span class="span text-danger ">${metinAlani.value}</span></p>`
-//   mesaj.className = "bg-danger"; 
+
+  mesaj.innerHTML = `<p class="msg text-white">There are ${count} vowels in <span class="span text-danger ">${metinAlani.value}</span></p>`
+  metinAlani.value = "";
 });
 
 
