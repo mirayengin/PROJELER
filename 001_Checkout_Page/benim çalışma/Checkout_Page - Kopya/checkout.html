@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1 id="checkout-title">MENEMEN MANAV</h1>
+    <!-- <div class="miray">
+      <p>Burada herşey illira <sub>Miray FIRAT</sub></p>
+      <p>
+        Zor zamanların pratik mutluluğu küçük mutluluğu <sub>MENEMEN MANAV</sub>
+      </p>
+    </div> -->
+
+    <main>
+      <div id="products-preview">
+        <div id="product-painel">
+          <div class="products">
+            <div class="product">
+              <img src="img/10914876424242.jpg" alt="" />
+              <div class="product-info">
+                <h2>Egg</h2>
+                <div class="product-price">
+                  <p>
+                    <strong>2.25</strong> <span class="line-through">3.00</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">Remove</button>
+                </div>
+                <div class="product-line-price">2.25</div>
+              </div>
+            </div>
+
+            <div class="product">
+              <img src="img/greenadamini-kuru-sogan-500-g-55-471.png" alt="" />
+              <div class="product-info">
+                <h2>Onion</h2>
+                <div class="product-price">
+                  <p>
+                    <strong>9.99</strong>
+                    <span class="line-through">12.00</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">Remove</button>
+                </div>
+                <div class="product-line-price">9.99</div>
+              </div>
+            </div>
+
+            <div class="product">
+              <img
+                src="img/biberin_faydalari_nelerdir_sabah_kahvaltida_cig_biber_yerseniz_ne_olur_1581603144_2338.webp"
+                alt=""
+              />
+              <div class="product-info">
+                <h2>Pepper</h2>
+                <div class="product-price">
+                  <p>
+                    <strong>13.99</strong>
+                    <span class="line-through">17.00</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">Remove</button>
+                </div>
+                <div class="product-line-price">13.99</div>
+              </div>
+            </div>
+
+            <div class="product">
+              <img src="img/domates-kg-0515.webp" alt="" />
+              <div class="product-info">
+                <h2>Tomato</h2>
+                <div class="product-price">
+                  <p>
+                    <strong>12.99</strong>
+                    <span class="line-through">15.99</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">Remove</button>
+                </div>
+                <div class="product-line-price">12.99</div>
+              </div>
+            </div>
+          </div>
+          <div class="buy-detail" id="cart-subtotal">
+            <p>Subtotal</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-tax">
+            <p>Tax(%18)</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-shipping">
+            <p>Shipping</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-total">
+            <p>Total</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./checkout.js"></script>
+  </body>
+</html>
